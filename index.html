@@ -1,18 +1,1110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tessellations Layout: Sneakers | CSS Grid eCommerce Project</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Passion+One|Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template | VanillaJS</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <script src="js/script.js"></script>
-</body>
-
+  <body>
+    <header>
+      <h1>SNEAKERS</h1>
+    </header>
+    <ul id="productGrid">
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <img src="./assets/images/nike02a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <img src="./assets/images/nike01a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike03a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <img src="./assets/images/nike04a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Motion Flyknit</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike05a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike06a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Rise React Flyknit</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike07a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <img src="./assets/images/nike08a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <img src="./assets/images/nike09a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <img src="./assets/images/nike10a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <img src="./assets/images/nike11a.png" />
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="holder">
+          <div class="star">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <img src="./assets/images/nike12a.png" />
+          </div>
+        </div>
+      </li>
+    </ul>
+    <script src="js/script.js"></script>
+  </body>
 </html>
